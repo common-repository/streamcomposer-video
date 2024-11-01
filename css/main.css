@@ -1,0 +1,67 @@
+.progress {
+    background-color: #DDD;
+    border: groove #333 1px;
+}
+
+.progressbar {
+    background-color: #119911;
+    display: inline-block;
+    white-space: nowrap;
+    width: 0;
+    text-align: center;
+}
+
+.streamcomposer-embed .streamcomposer-videoWrapper {
+    position: relative;
+}
+
+.streamcomposer-embed .streamcomposer-videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.streamcomposer-embed .streamcomposer-overlay {
+    display: none;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: 2147483647;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.streamcomposer-embed .streamcomposer-overlay > div {
+    width: 60%;
+    margin: 100px auto;
+    text-align: center;
+    box-shadow: 0px 0px 10px 3px #333;
+}
+
+.streamcomposer-embed .streamcomposer-overlay .streamcomposer-videoWrapper {
+    background-color: black;
+}
+
+.streamcomposer-embed .streamcomposer-popup {
+    cursor: pointer;
+}
+
+.streamcomposer-embed .streamcomposer-popup img {
+    width: 100%;
+}
+
+table.videoList {
+    width: auto;
+}
+
+table.videoList td {
+}
+
+table.videoList td:last-child {
+    width: 50%;
+}
